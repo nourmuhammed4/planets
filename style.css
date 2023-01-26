@@ -1,0 +1,55 @@
+body{
+margin: 30px;
+}
+.container{
+    max-width: 100%;
+    background-color:#fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+}
+.table{
+    max-width: 100%;
+    height:90vh;
+    display: flex;
+    align-items :center;
+    justify-content: center;
+    position:relative;
+    margin-top: 10px;
+    background-image: url("images/planet.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+.table table{   
+ border-spacing: 0px;
+ border-style:2px dashed;
+ border-color: black;
+}
+.table table th{
+    font-size: 20px;
+    font-style: bold;
+border: dashed 2px;
+background-color: rgba(126, 126, 248, 0.26);
+padding: 5px 15px;
+border-spacing: 0px;
+}
+.table table td{
+font-size: 20px;
+ border: 2px dashed;
+ border-color: black;
+ text-align: center;
+ padding: 13px 30px;
+ border-spacing: 0px;
+}
+.table caption {
+    font-family: 'Montserrat', sans-serif;
+        caption-side: bottom;
+        display: table-caption;
+        text-align: center;
+        color: red;
+        padding-top: 25px;
+}        
+.table caption span{
+background-color: red;
+color: aliceblue;
+}
